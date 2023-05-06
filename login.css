@@ -1,0 +1,85 @@
+.main {
+    text-align: center;
+    justify-content: center;
+    display: flex; 
+    padding-top: 90px;
+    padding-bottom: 90px;
+    background-color: rgba(255, 255, 255, 0.8); /* transparent white background */
+    backdrop-filter: blur(5px); /* blur effect for the background */
+  }
+  .sub-main {
+    display: flex;
+    justify-content: center;
+    height: 450px; /* change height to 400px */
+    width: 30%;
+    box-shadow: 11px 12px 13px 12px rgb(207, 207, 207);
+    padding-top: 30px;
+    border-radius: 60px; 
+    background-color: rgba(255, 255, 255, 0.8); /* Change the background color to white with 80% opacity */
+    backdrop-filter: blur(10px); /* Apply a blur effect to the background */
+  }
+  
+  
+  
+  
+  .imgs {
+      padding-top: 20px;
+      justify-content: center;
+      display: flex;
+    }
+  .container-image {
+    background-color: rgb(223, 221, 221); 
+    border-radius: 150px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 115px;
+    width: 115px;
+  }
+  .profile {
+    height: 100px;
+    width: 100px;
+    border-radius: 130px;
+  } 
+
+  .name{
+      width: 300px;
+      height: 50px;
+      border-radius: 60px;
+      box-shadow: inset 0px 0px 25px 0px #888;
+      border: none;
+      outline: none;
+      background-color: #fff;
+  }
+
+  .email{
+      height: 25px;
+      width: 25px;
+      position: absolute;
+      padding: 14px 0 0 25px;
+  }
+
+  .name{
+      padding-left: 70px;
+      font-size: 20px;
+  }
+  .second-input{
+      padding-top: 20px;
+  }
+
+  
+  .login-button{
+      padding-top: 25px;
+  }
+
+  .link{
+      font-size: 25px;
+      font-weight: 400;
+  }
+   a{
+    font-size: 24px;
+  font-weight: bold;
+  font-family: cursive;
+  cursor: pointer;
+       color: #483D8B;
+   }
